@@ -7,6 +7,7 @@ HEADERS = {
 	'x-rapidapi-key': "5a92d6730emsh553b07f7c37825cp1ac400jsn86bb3d1d6f0f"
 }
 
+# REMEMBER - FREE API == 500 CALLS / DAY 
 def GetStock(symb):
 	q = {
 		"symbol":symb,
